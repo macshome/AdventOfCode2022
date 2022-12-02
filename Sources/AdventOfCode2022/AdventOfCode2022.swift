@@ -2,8 +2,6 @@ import Foundation
 
 public struct AdventOfCode2022 {
 
-
-
     public init() {}
 
     func loadInput(name: String) throws -> Data {
@@ -12,7 +10,6 @@ public struct AdventOfCode2022 {
         }
         return try Data(contentsOf: url)
     }
-
 }
 
 public enum AOCError: Error {

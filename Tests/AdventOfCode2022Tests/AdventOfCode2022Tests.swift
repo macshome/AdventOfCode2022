@@ -19,11 +19,11 @@ final class AdventOfCode2022Tests: XCTestCase {
     var sut: AdventOfCode2022!
 
     override func setUpWithError() throws {
-        self.sut = AdventOfCode2022()
+        sut = AdventOfCode2022()
     }
 
     override func tearDownWithError() throws {
-        self.sut = nil
+        sut = nil
     }
 
     func testloadData() throws {
