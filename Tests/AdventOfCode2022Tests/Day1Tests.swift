@@ -7,7 +7,7 @@ final class Day1Tests: XCTestCase {
 
     let parsedString = [6000, 4000, 11000, 24000, 10000]
     let part1Answer = 24000
-let part2Answer = 45000
+    let part2Answer = 45000
     var sut: Day1!
     
     override func setUpWithError() throws {
@@ -39,7 +39,6 @@ let part2Answer = 45000
     }
 
     func testSolvePart2() {
-        print(sut.solvePart2())
-//        XCTAssertEqual(part2Answer, sut.solvePart2())
+        XCTAssertEqual(part2Answer, sut.solvePart2())
     }
 }
